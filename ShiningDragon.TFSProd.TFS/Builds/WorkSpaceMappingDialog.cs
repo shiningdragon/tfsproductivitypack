@@ -29,7 +29,7 @@ namespace ShiningDragon.TFSProd.TFS.Builds
             branchedMappings = new List<WorkspaceBranchMapping>();
             versionControlServer = _versionControlServer;
 
-            buildControlsAssembly = Assembly.Load("Microsoft.TeamFoundation.Build.Controls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a");
+            buildControlsAssembly = Assembly.Load("Microsoft.TeamFoundation.Build.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a");
             var alltypes = buildControlsAssembly.GetTypes();
             var t = alltypes.First(item => item.Name == "VersionControlHelper");
             methodShowServerFolderBrowser = t.GetMethod("ShowServerFolderBrowser", BindingFlags.Static | BindingFlags.Public | BindingFlags.FlattenHierarchy,

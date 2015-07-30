@@ -104,7 +104,7 @@ namespace ShiningDragon.TFSProd.TFS.Builds
                 IBuildsPageExt buildsPageExt = ITeamExplorerPageExtensions.GetService<IBuildsPageExt>(teamExplorer.CurrentPage);
                 if(buildsPageExt != null)
                 {
-                    selectedBuildDefinitions = (from def in buildsPageExt.SelectedDefinitions.Concat(buildsPageExt.SelectedFavoriteDefinitions) 
+                    selectedBuildDefinitions = (from def in buildsPageExt.SelectedXamlDefinitions.Concat(buildsPageExt.SelectedFavoriteDefinitions) 
                                                 select new BuildDefnDetails()
                                                 {
                                                     Name = def.Name,

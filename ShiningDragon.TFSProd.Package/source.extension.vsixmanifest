@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="37237704-391c-429c-9368-85bfd5ab5d53" Version="2.0" Language="en-US" Publisher="Shining Dragon Software" />
-    <DisplayName>TFS Productivity Pack</DisplayName>
+    <Identity Id="7189AE3D-2461-4B88-A093-7D0C0187183D" Version="2.0" Language="en-US" Publisher="Shining Dragon Software" />
+    <DisplayName>TFS Productivity Pack (Visual Studio 2015)</DisplayName>
     <Description xml:space="preserve">A set of extensions to Visual Studio designed to improve your interaction with Team Foundation Server</Description>
     <MoreInfo>https://visualstudiogallery.msdn.microsoft.com/site/search?f%5B0%5D.Type=User&amp;f%5B0%5D.Value=Shining%20Dragon</MoreInfo>
     <License>licence.txt</License>
     <Icon>Resources\Package.ico</Icon>
   </Metadata>
   <Installation InstalledByMsi="false">
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
-    <InstallationTarget Version="[12.0]" Id="Microsoft.VisualStudio.Premium" />
-    <InstallationTarget Version="[12.0]" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
