@@ -312,7 +312,7 @@ namespace ShiningDragon.TFSProd.TFS.VersionControl
         private ITFSConnection tfsConnection;
         private ILogger logger;
         private EnvDTE80.DTE2 dte;
-        private readonly string versionControlControlsAssemblyString = "Microsoft.TeamFoundation.VersionControl.Controls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a";
+        private readonly string versionControlControlsAssemblyString = "Microsoft.TeamFoundation.VersionControl.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a";
         private Assembly versionControlControlsAssembly;
         private dynamic folderDiffOptions;
 
