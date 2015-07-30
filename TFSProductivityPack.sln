@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5ADCDDE2-5B5B-4363-B204-9D897FA75AE0}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiningDragon.TFSProd.TFS", "ShiningDragon.TFSProd.TFS\ShiningDragon.TFSProd.TFS.csproj", "{2B685F22-33C0-463D-A5A1-5C304336F48C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiningDragon.TFSProd.Common", "ShiningDragon.TFSProd.Common\ShiningDragon.TFSProd.Common.csproj", "{2623FCD1-E2F3-4C4A-A009-7DE1A03E36C2}"
@@ -10,8 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiningDragon.TFSProd.Commands", "ShiningDragon.TFSProd.Commands\ShiningDragon.TFSProd.Commands.csproj", "{C775A8EE-A039-4A17-B846-DA9733CA64B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiningDragon.TFSProd.Package", "ShiningDragon.TFSProd.Package\ShiningDragon.TFSProd.Package.csproj", "{A144FA44-BF63-452A-BF53-E7D1BDE3BFC5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5ADCDDE2-5B5B-4363-B204-9D897FA75AE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiningDragon.TFSProd.UnitTests", "ShiningDragon.TFSProd.UnitTests\ShiningDragon.TFSProd.UnitTests.csproj", "{BF891A78-3FEB-4C3D-A99D-F7EB05FB558F}"
 EndProject
