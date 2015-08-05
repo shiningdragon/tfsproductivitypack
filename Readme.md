@@ -1,8 +1,11 @@
 <p>The <a href="https://shiningdragonsoftware.wordpress.com/tfs-productivity-pack/"> TFS Productivity Pack</a> is an open source set of extensions to Visual Studio designed to improve your interaction with TFS. It includes functionality to make navigating to and from the source control explorer much easier as well as advanced compare tools  and the ability to branch build definitions to work against other branches.</p>
 <p>This version supports Visual Studio 2013 and 2015, TFS 2010/2012/2013/2015 and Visual Studio Online</p>
-<p>Download the latest version here
-<a title="https://visualstudiogallery.msdn.microsoft.com/1a8f5f25-941c-490c-a1c4-e26b4895be6c" href="https://visualstudiogallery.msdn.microsoft.com/1a8f5f25-941c-490c-a1c4-e26b4895be6c" target="_blank"> https://visualstudiogallery.msdn.microsoft.com/1a8f5f25-941c-490c-a1c4-e26b4895be6c</a></p>
-<p>Full source for this extension is available on git hub at <a title="https://github.com/shiningdragon/tfsproductivitypack" href="https://github.com/shiningdragon/tfsproductivitypack" target="_blank"> https://github.com/shiningdragon/tfsproductivitypack</a></p>
+<p>Download the 
+<a title="https://visualstudiogallery.msdn.microsoft.com/1a8f5f25-941c-490c-a1c4-e26b4895be6c" href="https://visualstudiogallery.msdn.microsoft.com/1a8f5f25-941c-490c-a1c4-e26b4895be6c" target="_blank"> Visual Studio 2013 version</a></p>
+
+<p>Download the 
+<a title="https://visualstudiogallery.msdn.microsoft.com/03ead7e5-3680-4834-a4cb-271a2b189108" href="https://visualstudiogallery.msdn.microsoft.com/03ead7e5-3680-4834-a4cb-271a2b189108" target="_blank"> Visual Studio 2015 version</a></p>
+
 <p>Check out the demo video at <a title="https://vimeo.com/120608354" href="https://vimeo.com/120608354" target="_blank"> https://vimeo.com/120608354</a></p>
 <p><strong>Open in Source Control Explorer</strong></p>
 <p>Easily navigate directly to the source control explorer from the code editor and the solution explorer</p>
