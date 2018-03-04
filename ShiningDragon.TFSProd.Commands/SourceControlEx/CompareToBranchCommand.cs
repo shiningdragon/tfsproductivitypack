@@ -15,7 +15,7 @@ using Microsoft.VisualStudio.Shell;
 
 namespace ShiningDragon.TFSProd.Commands.SourceControlEx
 {
-    public class CompareToBranchCommand
+    public class CompareToBranchCommand  
     {
         public CompareToBranchCommand(IMenuCommandService menuCommandService, ILogger _logger, ITFSVersionControl _tfs)
         {
